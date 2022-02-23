@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Enemies\Enemies.csproj">
+      <Project>{a84aa3ba-c481-400a-9939-3672ed410ea3}</Project>
+      <Name>Enemies</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HistoryLibrary\HistoryLibrary.csproj">
+      <Project>{60708501-f6c2-4998-a8b2-235b10d6a2a3}</Project>
+      <Name>HistoryLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
