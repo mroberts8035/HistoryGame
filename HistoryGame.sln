@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1778
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoryGame", "HistoryGame\HistoryGame.csproj", "{3A560D25-4021-42D1-9EDB-5C2DF037144E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enemies", "Enemies\Enemies.csproj", "{A84AA3BA-C481-400A-9939-3672ED410EA3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoryLibrary", "HistoryLibrary\HistoryLibrary.csproj", "{60708501-F6C2-4998-A8B2-235B10D6A2A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{4904CCE4-5F38-45CC-A668-99ADE9DC959A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3A560D25-4021-42D1-9EDB-5C2DF037144E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A560D25-4021-42D1-9EDB-5C2DF037144E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A560D25-4021-42D1-9EDB-5C2DF037144E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A560D25-4021-42D1-9EDB-5C2DF037144E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A84AA3BA-C481-400A-9939-3672ED410EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A84AA3BA-C481-400A-9939-3672ED410EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A84AA3BA-C481-400A-9939-3672ED410EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{60708501-F6C2-4998-A8B2-235B10D6A2A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60708501-F6C2-4998-A8B2-235B10D6A2A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60708501-F6C2-4998-A8B2-235B10D6A2A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4904CCE4-5F38-45CC-A668-99ADE9DC959A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4904CCE4-5F38-45CC-A668-99ADE9DC959A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4904CCE4-5F38-45CC-A668-99ADE9DC959A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4904CCE4-5F38-45CC-A668-99ADE9DC959A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
