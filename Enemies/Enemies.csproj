@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Apprentice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HistoryLibrary\HistoryLibrary.csproj">
